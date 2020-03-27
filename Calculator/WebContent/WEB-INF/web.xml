@@ -1,0 +1,14 @@
+
+<web-app>
+
+	<servlet>
+		<servlet-name>ejercicio_entornos</servlet-name>
+		<servlet-class>paquete_servlet.DemoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ejercicio_entornos</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+
+</web-app>  
