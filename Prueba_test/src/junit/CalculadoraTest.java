@@ -25,10 +25,11 @@ class CalculadoraTest {
 		Calculadora calculadora = new Calculadora();
 		int x = 5;
 		int y = 10;
+		int z = 5;
 		
-		int resultado = calculadora.restar(x, y);
+		int resultado = calculadora.restar(x, y, z);
 		
-		int esperado = -5;
+		int esperado = -10;
 		
 		assertEquals(esperado, resultado);
 	}
